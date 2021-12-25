@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px) {
+    /* body {
+        background-color: red;
+
+    } */
+
+    .intro {
+        font-size: 48px;
+        line-height: 1.4;
+        text-align: ce;
+    }
+    
+    .grid-wrapper {
+        grid-template-columns: none;
+        /* grid-template-rows: auto auto; */
+        row-gap: 50vh;
+        /* align-content: center; */
+    }
+
+    .links {
+        flex-direction: row;
+        height: 100%;
+        /* justify-content: left; */
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-links {
+        height: 100%;
+        width: 100%;
+    }
+
+    .btn-home {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
